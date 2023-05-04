@@ -5,19 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ab9ca86-68d3-47cf-9fb8-90f985b2bc1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/ParqueaderoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/Parqueadero/ParqueaderoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parqueadero.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/FONDO3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/FONDO4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/FONDO5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/Fondo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LOGO2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/Logop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/Pagar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/pagar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/pxfuel.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +60,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MY3QU1P0/Downloads/Parqueadero/Parqueadero&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Codigo/Parqueadero/Parqueadero/src/main/resources/templates"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.ParqueaderoApplicationTests">
     <configuration name="ParqueaderoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Parqueadero" />
