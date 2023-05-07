@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ab9ca86-68d3-47cf-9fb8-90f985b2bc1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/FONDO3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/FONDO4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/FONDO5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/Fondo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LOGO2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/Logop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/Pagar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/pagar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/pxfuel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -62,12 +47,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "D:/Codigo/Parqueadero/Parqueadero/src/main/resources/templates"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ParqueaderoApplicationTests">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Codigo\Parqueadero\Parqueadero\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ParqueaderoApplication">
+    <configuration name="ParqueaderoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Parqueadero.ParqueaderoApplication" />
+      <module name="Parqueadero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.Parqueadero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParqueaderoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Parqueadero" />
       <extension name="coverage">
@@ -101,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParqueaderoApplication" />
         <item itemvalue="JUnit.ParqueaderoApplicationTests" />
         <item itemvalue="JUnit.ParqueaderoApplicationTests.contextLoads" />
       </list>

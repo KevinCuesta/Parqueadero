@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Registros</title>
+  <link rel="stylesheet" href="estilo6.css">
+</head>
+<body>
+<div class="table-title">
+  <h3>Registro de entrada</h3>
+</div>
+<table class="table-fill">
+  <thead>
+  <tr>
+    <th class="text-left">Cedula</th>
+    <th class="text-left">Placa</th>
+    <th class="text-left">Fecha y Hora de Entrada</th>
+    <th class="text-left">Tipo de Vehículo</th>
+    <th class="text-left">Espacio de Parqueadero Asignado</th>
+  </tr>
+  </thead>
+  <tbody class="table-hover">
+  <tr th:each="registro : ${registros}">
+    <td th:text="${registro.getCedula()}"></td>
+    <td th:text="${registro.getPlaca()}"></td>
+    <td th:text="${registro.getFechaHoraEntrada()}"></td>
+    <td th:text="${registro.getTipo()}"></td>
+    <td th:text="${registro.getEspacioParqueadero()}"></td>
+  </tr>
+  </tbody>
+</table>
+<th class="text-left"></th>
+<td>
+  <button class="btn-edit" th:data-id="${registro.getId()}">Editar</button>
+</td>
+
+</body>
+</html>
