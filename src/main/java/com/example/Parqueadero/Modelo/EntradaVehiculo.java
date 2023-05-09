@@ -1,6 +1,7 @@
 package com.example.Parqueadero.Modelo;
 import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.*;
 
 @Entity
 @Table(name = "entradas_vehiculos")
@@ -16,6 +17,9 @@ public class EntradaVehiculo {
     @ManyToOne
     @JoinColumn(name = "cliente_cedula")
     private Cliente cliente;
+
+    @OneToMany(mappedBy = "entradaVehiculo")
+    private List<EspacioParqueadero> espaciosParqueadero = new ArrayList<>();
 
     public EntradaVehiculo() {}
 
@@ -47,5 +51,19 @@ public class EntradaVehiculo {
 
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
+    }
+
+    public List<EspacioParqueadero> getEspaciosParqueadero() {
+        return espaciosParqueadero;
+    }
+
+    public void addEspacioParqueadero(EspacioParqueadero espacio) {
+        this.espaciosParqueadero.add(espacio);
+        espacio.setEntradaVehiculo(this);
+    }
+
+    public void removeEspacioParqueadero(EspacioParqueadero espacio) {
+        this.espaciosParqueadero.remove(espacio);
+        espacio.setEntradaVehiculo(null);
     }
 }
