@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Clientes</title>
+    <link rel="stylesheet" href="estilo7.css">
+</head>
+<body>
+<div class="tabla-container">
+    <h1>Lista de Clientes</h1>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">Cédula</th>
+            <th class="text-left">Nombre</th>
+            <th class="text-left">Apellido</th>
+            <th class="text-left">Teléfono</th>
+            <th class="text-center">Acciones</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="cliente : ${clientes}">
+            <td th:text="${cliente.cedula}"></td>
+            <td th:text="${cliente.nombre}"></td>
+            <td th:text="${cliente.apellido}"></td>
+            <td th:text="${cliente.telefono}"></td>
+            <td>
+                <button class="btn-edit" th:data-id="${cliente.id}">Editar</button>
+                <button class="btn-delete" th:data-id="${cliente.id}">Eliminar</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <a href="index.html" class="btn">Volver a la página principal</a>
+</div>
+</body>
+</html>

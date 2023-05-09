@@ -9,6 +9,7 @@ body {
 }
 
 .form-register {
+  position: relative;
   width: 400px;
   background: #24303c;
   padding: 30px;
@@ -73,8 +74,31 @@ body {
 .form-register .botons:hover {
   background-color: #154aae;
 }
+.boton-container a {
+  color: white;
+  text-decoration: none;
+}
+
+button.menu {
+  top: 65%;
+  margin-top: 40px;
+  display: block;
+  margin-top: 10px;
+  float: left;
+}
+
+button.registro {
+  top: 73%;
+  margin-top: 40px;
+  display: block;
+  margin-top: 10px;
+  float: left;
+}
+
 button {
-  position: relative;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   padding: 10px 20px;
   border-radius: 7px;
   border: 1px solid rgb(61, 106, 255);
@@ -85,48 +109,28 @@ button {
   background: transparent;
   color: #fff;
   overflow: hidden;
-  box-shadow: 0 0 0 0 transparent;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
 }
 
 button:hover {
   background: rgb(61, 106, 255);
   box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
 }
 
 button:hover::before {
-  -webkit-animation: sh02 0.5s 0s linear;
-  -moz-animation: sh02 0.5s 0s linear;
   animation: sh02 0.5s 0s linear;
-}
-button {
-  position: absolute;
-  top: calc(50% + 140px);
-  left: 50%;
-  transform: translateX(-50%);
-
 }
 
 button::before {
   content: '';
   display: block;
   width: 0px;
-  height: 86    %;
+  height: 86%;
   position: absolute;
   top: 7%;
   left: 0%;
   opacity: 0;
   background: #fff;
   box-shadow: 0 0 50px 30px #fff;
-  -webkit-transform: skewX(-20deg);
-  -moz-transform: skewX(-20deg);
-  -ms-transform: skewX(-20deg);
-  -o-transform: skewX(-20deg);
   transform: skewX(-20deg);
 }
 
@@ -152,3 +156,31 @@ button:active {
   -moz-transition: box-shadow 0.2s ease-in;
   transition: box-shadow 0.2s ease-in;
 }
+
+.registro-btn {
+  position: relative;
+  top: 60px;
+  left: 20px;
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registro-btn:hover {
+  background-color: #3e8e41;
+}
+.boton-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }

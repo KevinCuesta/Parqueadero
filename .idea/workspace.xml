@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ab9ca86-68d3-47cf-9fb8-90f985b2bc1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/estilo2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/estilo6.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo6.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index6.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +49,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Codigo/Parqueadero/Parqueadero/src/main/resources/templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Codigo/Parqueadero/Parqueadero/src/main/resources/templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Codigo\Parqueadero\Parqueadero\src\main\resources\templates" />
