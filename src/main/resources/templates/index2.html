@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta nombre="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="estilo2.css">
+  <title>Registro de Entrada de Vehículos</title>
+</head>
+<body>
+<section class="form-register">
+  <h4>Registro de Entrada de Vehículos</h4>
+  <input class="controls" type="text" nombre="cedula" id="cedula" placeholder="Ingrese su Cedula">
+  <input class="controls" type="text" nombre="placa" id="placa" placeholder="Ingrese la Placa del vehiculo">
+  <input class="controls" type="datetime-local" nombre="fecha_hora_entrada" id="fecha_hora_entrada" placeholder="Fecha y hora de entrada">
+  <select class="controls" nombre="tipo" id="tipo">
+    <option value="">Seleccione un tipo de vehículo</option>
+    <option value="automovil">Automóvil</option>
+    <option value="moto">Moto</option>
+    <option value="camion">Camión</option>
+  </select>
+  <input class="controls" type="number" nombre="espacio_parqueadero" id="espacio_parqueadero" placeholder="Espacio de parqueadero asignado (max. 20)">
+  <input class="botons" type="submit" value="Registrar">
+</section>
+<div class="boton-container">
+  <button class="menu"><a href="index.html">Menu</a></button>
+  <button class="registro"><a href="index6.html">Registro</a></button>
+</div>
+</body>
+</html>
+
