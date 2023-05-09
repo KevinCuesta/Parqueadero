@@ -74,14 +74,30 @@ body {
   background-color: #FFD906;
 }
 
+
+button.menu {
+  top: 65%;
+  margin-top: 40px;
+  display: block;
+  margin-top: 10px;
+  float: left;
+}
+
+button.registro {
+  top: 73%;
+  margin-top: 40px;
+  display: block;
+  margin-top: 10px;
+  float: left;
+}
+
 button {
   position: absolute;
-  top: calc(50% + 140px);
   left: 50%;
   transform: translateX(-50%);
   padding: 10px 20px;
   border-radius: 7px;
-  border: 1px solid rgb(237, 201, 1);
+  border: 1px solid rgb(234, 250, 47 );
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
@@ -89,14 +105,11 @@ button {
   background: transparent;
   color: #fff;
   overflow: hidden;
-  box-shadow: 0 0 0 0 transparent;
-  transition: all 0.2s ease-in;
 }
 
 button:hover {
-  background-color: #EDC901;
-  box-shadow: 0 0 30px 5px rgba(244, 240, 6, 0.815);
-  transition: all 0.2s ease-out;
+  background: rgb(194, 210, 5);
+  box-shadow: 0 0 30px 5px rgba(237, 227, 11, 0.815);
 }
 
 button:hover::before {
@@ -139,3 +152,31 @@ button:active {
   -moz-transition: box-shadow 0.2s ease-in;
   transition: box-shadow 0.2s ease-in;
 }
+
+.registro-btn {
+  position: relative;
+  top: 60px;
+  left: 20px;
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registro-btn:hover {
+  background-color: #3e8e41;
+}
+.boton-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }

@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ab9ca86-68d3-47cf-9fb8-90f985b2bc1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/estilo2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/estilo6.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo6.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index6.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/estilo4.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/estilo4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
