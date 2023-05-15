@@ -18,8 +18,6 @@ public class EspacioParqueadero {
     private boolean disponible;
 
     public EspacioParqueadero() {}
-
-    //Constructor con todos los campos
     public EspacioParqueadero(EntradaVehiculo entradaVehiculo) {
         this.entradaVehiculo = entradaVehiculo;
     }
