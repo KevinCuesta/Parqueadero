@@ -1,4 +1,4 @@
-package com.example.Parqueadero.interfaces;
+package com.example.Parqueadero.Interfaces;
 
 import com.example.Parqueadero.Modelo.EspacioParqueadero;
 import org.springframework.data.repository.CrudRepository;

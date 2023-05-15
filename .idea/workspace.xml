@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ab9ca86-68d3-47cf-9fb8-90f985b2bc1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/InterfaceService/IClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/InterfaceService/IEntradaVehiculoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/InterfaceService/IEspacioParqueaderoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/Interfaces/ICliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/Interfaces/IEntradaVehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/Interfaces/IEspacioParqueadero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/Service/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/Service/EntradaVehiculoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/Service/EspacioParqueaderoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/Modelo/EspacioParqueadero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/Modelo/EspacioParqueadero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/Interfaces/IEspacioParqueadero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/Interfaces/IEspacioParqueadero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
