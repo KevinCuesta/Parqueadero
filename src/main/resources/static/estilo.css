@@ -1,0 +1,75 @@
+
+
+  body {
+    background-image: url('pxfuel.jpg');
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-entrada {
+  --clr: #00ade1;
+}
+
+#btn-salida {
+  --clr: #ff6493;
+}
+
+#btn-cliente {
+  --clr: #ffdd1c;
+}
+
+#btn-parqueadero {
+  --clr: #00dc82;
+}
+
+.button-group button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff80;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  border: 1px solid var(--clr);
+  transition: 0.5s ease;
+  user-select: none;
+  font-family: 'calibri';
+}
+
+.button-group button:hover,
+.button-group button:focus {
+  color: #ffffff;
+  background: var(--clr);
+  border: 1px solid var(--clr);
+  text-shadow: 0 0 1px #ffffff,
+              0 0 1px #ffffff,
+              0 0 0.2 px #ffffff;
+  box-shadow: 0 0 5px var(--clr),
+              0 0 20px var(--clr),
+              0 0 50px var(--clr),
+              0 0 100px var(--clr);
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.logo-container img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+
