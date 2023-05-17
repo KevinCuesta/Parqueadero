@@ -6,27 +6,40 @@
 
 body {
   background-image: url('fondo.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.form-register {
-  position: relative;
-  width: 400px;
+h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center; /* Agregado para centrar el título */
+}
+
+main {
+  max-width: 400px;
   background: #24303c;
   padding: 30px;
-  margin: auto;
-  margin-top: 100px;
   border-radius: 4px;
   font-family: 'calibri';
   color: white;
   box-shadow: 7px 13px 37px #000;
 }
 
-.form-register h4 {
-  font-size: 22px;
-  margin-bottom: 20px;
+.form-group {
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
 }
 
-.controls {
+.form-group input {
   width: 100%;
   background: #24303c;
   padding: 10px;
@@ -38,149 +51,14 @@ body {
   color: white;
 }
 
-.controls:focus {
-  border-color: #1f53c5;
+.card-footer {
+  display: flex;
+  justify-content: center;
 }
 
-.form-register p {
-  height: 40px;
-  text-align: center;
-  font-size: 18px;
-  line-height: 40px;
-}
-
-.form-register a {
-  color: white;
-  text-decoration: none;
-}
-
-.form-register a:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-.form-register .botons {
-  width: 100%;
+.btn {
+  width: 120px;
   background: #1f53c5;
   border: none;
   padding: 12px;
   color: white;
-  margin: 16px 0;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.form-register .botons:hover {
-  background-color: #154aae;
-}
-.boton-container a {
-  color: white;
-  text-decoration: none;
-}
-
-button.menu {
-  top: 65%;
-  margin-top: 40px;
-  display: block;
-  margin-top: 10px;
-  float: left;
-}
-
-button.registro {
-  top: 73%;
-  margin-top: 40px;
-  display: block;
-  margin-top: 10px;
-  float: left;
-}
-
-button {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 10px 20px;
-  border-radius: 7px;
-  border: 1px solid rgb(61, 106, 255);
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 2px;
-  background: transparent;
-  color: #fff;
-  overflow: hidden;
-}
-
-button:hover {
-  background: rgb(61, 106, 255);
-  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
-}
-
-button:hover::before {
-  animation: sh02 0.5s 0s linear;
-}
-
-button::before {
-  content: '';
-  display: block;
-  width: 0px;
-  height: 86%;
-  position: absolute;
-  top: 7%;
-  left: 0%;
-  opacity: 0;
-  background: #fff;
-  box-shadow: 0 0 50px 30px #fff;
-  transform: skewX(-20deg);
-}
-
-@keyframes sh02 {
-  from {
-    opacity: 0;
-    left: 0%;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    left: 100%;
-  }
-}
-
-button:active {
-  box-shadow: 0 0 0 0 transparent;
-  -webkit-transition: box-shadow 0.2s ease-in;
-  -moz-transition: box-shadow 0.2s ease-in;
-  transition: box-shadow 0.2s ease-in;
-}
-
-.registro-btn {
-  position: relative;
-  top: 60px;
-  left: 20px;
-  display: inline-block;
-  background-color: #4CAF50;
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-right: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.registro-btn:hover {
-  background-color: #3e8e41;
-}
-.boton-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 10px;
-  }

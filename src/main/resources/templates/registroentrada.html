@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" xmlns:th="https://www.thymeleaf.org">>
+<html lang="es" xmlns:th="https://www.thymeleaf.org">
 <head>
   <meta charset="UTF-8">
   <meta nombre="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,36 +7,103 @@
   <link rel="stylesheet" href="/estilo2.css">
   <title>Registro de Entrada de Vehículos</title>
 </head>
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('/fondo.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 400px;
+  background: #24303c;
+  padding: 30px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-group {
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-group input {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 120px;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+}
+
+</style>
 <body>
+<main>
   <h4>Registro de Entrada de Vehículos</h4>
-  <main>
-    <form th:action="@{/save2}" th:object="${EntradaVehiculo}" method="POST">
-      <div class="form-group">
-        <label>placa</label>
-        <input th:field="*{placa}" type="text" class="form-control"/>
-      </div>
-      <div class="form-group">
-        <label>fechaEntrada}</label>
-        <input th:field="*{fechaEntrada}" type="datetime-local" class="form-control"/>
-      </div>
-      <div class="form-group">
-        <label>Cedula</label>
-        <input th:field="*{cliente}" type="text" class="form-control"/>
-      </div>
-      <div class="form-group">
-        <label>espaciosParqueadero</label>
-        <input th:field="*{espaciosParqueadero}" type="number" class="form-control"/>
-      </div>
+  <form th:action="@{/save2}" th:object="${EntradaVehiculo}" method="POST">
+    <div class="form-group">
+      <label>Placa</label>
+      <input th:field="*{placa}" type="text" class="form-control"/>
+    </div>
+    <div class="form-group">
+      <label>Fecha De Entrada</label>
+      <input th:field="*{fechaEntrada}" type="datetime-local" class="form-control"/>
+    </div>
+    <div class="form-group">
+      <label>Cedula</label>
+      <input th:field="*{cliente}" type="text" class="form-control"/>
+    </div>
+    <div class="form-group">
+      <label>Espacios Del Parqueadero</label>
+      <input th:field="*{espaciosParqueadero}" type="number" class="form-control"/>
+    </div>
 
 
-      <div class="card-footer">
-        <input type="submit" value="Guardar" class="btn btn-success">
-        <a th:href="@{/inicio}" class="btn btn-warning">Atras</a>
-      </div>
-    </form>
-  </main>
+    <div class="card-footer">
+      <input type="submit" value="Guardar" class="btn btn-success">
+      <a th:href="@{/inicio}" class="btn btn-warning">Atras</a>
+    </div>
+  </form>
+</main>
 
-</div>
 </body>
 </html>
-

@@ -7,14 +7,72 @@
 </head>
 <style>
 
-    main {
-       max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      box-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
-      text-align: center;
-      background-color: rgba(255, 255, 255, 0.3);
-    }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('/FONDO4.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 400px;
+  background: #24303c;
+  padding: 30px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-group {
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #EDE30B;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-group input {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #EDE30B;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 120px;
+  background: #CBC30A;
+  border: none;
+  padding: 12px;
+  color: white;
+}
 </style>
 <body>
 <div class="form-register">
@@ -46,11 +104,6 @@
     </form>
 
   </main>
-<a href="/inicio">
-  <button>
-    Menu
-  </button>
-</a>
 </div>
 </body>
 </html>
