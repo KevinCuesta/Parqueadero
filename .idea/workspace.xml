@@ -5,19 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1ea1855-895c-448e-baa9-7e0e5c9c5fe5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaceService/IclienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaceService/IentradavehiculoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaceService/IespacioparqueoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaces/ICliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaces/IEntradaVehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaces/IEspacioParqueadero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/modelo/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/modelo/EntradaVehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/modelo/EspacioParqueadero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/service/ClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/service/EntradaVehiculoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/service/EspacioParqueaderoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/controler/ClienteControler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/controler/Controler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/controler/personacontroler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaceService/IclienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaceService/IclienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/modelo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/modelo/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/service/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/LOGO2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/LOGO2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/inicio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registroentrada.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registrosalida.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registrocliente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index5.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/espacioparqueadero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index6.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/listaregistro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index7.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/listacliente.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +86,13 @@
       <recent name="C:\Users\Laura Valentina\Downloads\TrabajoHtml (1)\CrudSpringBoot\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Laura Valentina\OneDrive\Escritorio\Programacion\Parqueadero\Parqueadero\src\main\resources\static" />
       <recent name="C:\Users\Laura Valentina\Downloads\TrabajoHtml (1)\CrudSpringBoot\src\main\resources\static" />
       <recent name="C:\Users\MY3QU1P0\Downloads\CrudSpringBoot\CrudSpringBoot\src\main\resources\Fonts" />
       <recent name="C:\Users\MY3QU1P0\Downloads\CrudSpringBoot\CrudSpringBoot\src\main\resources\templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.Parqueadero.controler" />
       <recent name="com.example.Parqueadero.service" />
       <recent name="com.example.Parqueadero.interfaces" />
       <recent name="com.example.Parqueadero.interfaceService" />

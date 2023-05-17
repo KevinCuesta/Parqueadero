@@ -18,7 +18,7 @@ import java.util.Optional;
 
 @Controller
 @RequestMapping
-public class Controler {
+public class personacontroler {
 
 
     @Autowired

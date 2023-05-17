@@ -21,9 +21,9 @@ public class ClienteService implements IclienteService {
     }
 
     @Override
-    public Optional<Cliente> listarId3(int id) {
+    public Optional<Cliente> listarcedula(int cedula) {
 
-        return datas.findById(id);
+        return datas.findById(cedula);
     }
 
     @Override
@@ -37,7 +37,7 @@ public class ClienteService implements IclienteService {
     }
 
     @Override
-    public void delete3(int id) {
-            datas.deleteById(id);
+    public void delete3(int cedula) {
+            datas.deleteById(cedula);
     }
 }

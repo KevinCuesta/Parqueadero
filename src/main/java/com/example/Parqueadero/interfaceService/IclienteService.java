@@ -10,8 +10,8 @@ import java.util.Optional;
 public interface IclienteService {
 
     public List<Cliente>listar3();
-    public Optional<Cliente>listarId3(int id);
+    public Optional<Cliente>listarcedula(int cedula);
     public int save3 (Cliente p);
-    public void delete3(int idt);
+    public void delete3(int cedula);
 
 }

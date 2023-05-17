@@ -8,16 +8,13 @@ import java.util.List;
 public class Cliente {
 
     @Id
-    @Column(name = "cedula")
     private String cedula;
 
-    @Column(name = "nombre")
     private String nombre;
 
-    @Column(name = "apellido")
     private String apellido;
 
-    @Column(name = "telefono")
+
     private String telefono;
 
     @OneToMany(mappedBy = "cliente")

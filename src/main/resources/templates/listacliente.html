@@ -19,19 +19,19 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="cliente : ${clientes}">
+        <tr th:each="cliente:${cliente}">
             <td th:text="${cliente.cedula}"></td>
             <td th:text="${cliente.nombre}"></td>
             <td th:text="${cliente.apellido}"></td>
             <td th:text="${cliente.telefono}"></td>
             <td>
-                <button class="btn-edit" th:data-id="${cliente.id}">Editar</button>
-                <button class="btn-delete" th:data-id="${cliente.id}">Eliminar</button>
+                <button class="btn-edit" th:data-id="${cliente.cedula}">Editar</button>
+                <button class="btn-delete" th:data-id="${cliente.cedula}">Eliminar</button>
             </td>
         </tr>
         </tbody>
     </table>
-    <a href="index.html" class="btn">Volver a la página principal</a>
+    <a href="/inicio" class="btn">Volver a la página principal</a>
 </div>
 </body>
 </html>

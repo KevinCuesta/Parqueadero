@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="https://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de cliente</title>
+  <link rel="stylesheet" href="estilo4.css">
+</head>
+<style>
+
+
+    main {
+       max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      box-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+</style>
+<body>
+<div class="form-register">
+  <h4>Formulario de Registro</h4>
+  <main>
+    <form th:action="@{/save3}" th:object="${cliente}" method="POST">
+      <div class="form-group">
+        <label>CEDULA</label>
+        <input th:field="*{cedula}" type="text" class="form-control"/>
+      </div>
+      <div class="form-group">
+        <label>NOMBRE</label>
+        <input th:field="*{nombre}" type="text" class="form-control"/>
+      </div>
+      <div class="form-group">
+        <label>APELLIDOS</label>
+        <input th:field="*{apellido}" type="text" class="form-control"/>
+      </div>
+      <div class="form-group">
+        <label>TELEFONO</label>
+        <input th:field="*{telefono}" type="text" class="form-control"/>
+      </div>
+
+
+      <div class="card-footer">
+        <input type="submit" value="Guardar" class="btn btn-success">
+        <a th:href="@{/inicio}" class="btn btn-warning">Atras</a>
+      </div>
+    </form>
+
+  </main>
+<a href="index.html">
+  <button>
+    Menu
+  </button>
+</a>
+</div>
+</body>
+</html>
