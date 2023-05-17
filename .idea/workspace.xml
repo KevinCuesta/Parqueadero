@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1ea1855-895c-448e-baa9-7e0e5c9c5fe5" name="Changes" comment="" />
+    <list default="true" id="b1ea1855-895c-448e-baa9-7e0e5c9c5fe5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaceService/IclienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaceService/IentradavehiculoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaceService/IespacioparqueoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaces/ICliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaces/IEntradaVehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaces/IEspacioParqueadero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/modelo/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/modelo/EntradaVehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/modelo/EspacioParqueadero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/service/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/service/EntradaVehiculoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/service/EspacioParqueaderoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +32,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -34,35 +51,37 @@
     </option>
   </component>
   <component name="ProjectId" id="2GdOnblribl5X32VeR4kzuTyufP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Laura Valentina/Downloads/TrabajoHtml (1)/CrudSpringBoot/src/main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "c79a54adde12c7c2c1e523ed08200507"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Laura Valentina/OneDrive/Escritorio/Programacion/Parqueadero/Parqueadero/src/main/java/com/example/Parqueadero/modelo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;c79a54adde12c7c2c1e523ed08200507&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Laura Valentina\OneDrive\Escritorio\Programacion\Parqueadero\Parqueadero\src\main\java\com\example\Parqueadero\modelo" />
       <recent name="C:\Users\Laura Valentina\Downloads\TrabajoHtml (1)\CrudSpringBoot\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -70,11 +89,16 @@
       <recent name="C:\Users\MY3QU1P0\Downloads\CrudSpringBoot\CrudSpringBoot\src\main\resources\Fonts" />
       <recent name="C:\Users\MY3QU1P0\Downloads\CrudSpringBoot\CrudSpringBoot\src\main\resources\templates" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.Parqueadero.service" />
+      <recent name="com.example.Parqueadero.interfaces" />
+      <recent name="com.example.Parqueadero.interfaceService" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.ParqueaderoApplication">
     <configuration name="ParqueaderoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Parqueadero.ParqueaderoApplication" />
-      <module name="CrudSpringBoot" />
+      <module name="Parqueadero" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.Parqueadero.*" />
