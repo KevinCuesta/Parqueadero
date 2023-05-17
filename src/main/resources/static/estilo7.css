@@ -128,7 +128,7 @@ tr:last-child td:last-child {
 }
 
 td {
-  background: #2C2C2CF;
+
   padding: 20px;
   text-align: left;
   vertical-align: middle;
@@ -166,14 +166,6 @@ td.text-right {
   text-align: right;
 }
 
-.fadeInOpacity {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 /*----------------------*/
 

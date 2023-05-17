@@ -8,32 +8,32 @@ import java.util.List;
 public class Cliente {
 
     @Id
-    private String cedula;
+    private long cedula;
 
     private String nombre;
 
     private String apellido;
 
 
-    private String telefono;
+    private long telefono;
 
     @OneToMany(mappedBy = "cliente")
     private List<EntradaVehiculo> entradasVehiculos;
 
     public Cliente() {}
 
-    public Cliente(String cedula, String nombre, String apellido, String telefono) {
+    public Cliente(long cedula, String nombre, String apellido, long telefono) {
         this.cedula = cedula;
         this.nombre = nombre;
         this.apellido = apellido;
         this.telefono = telefono;
     }
-    
-    public String getCedula() {
+
+    public long getCedula() {
         return cedula;
     }
 
-    public void setCedula(String cedula) {
+    public void setCedula(long cedula) {
         this.cedula = cedula;
     }
 
@@ -53,11 +53,11 @@ public class Cliente {
         this.apellido = apellido;
     }
 
-    public String getTelefono() {
+    public long getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(String telefono) {
+    public void setTelefono(long telefono) {
         this.telefono = telefono;
     }
 }

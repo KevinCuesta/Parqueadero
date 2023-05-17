@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8" />
     <title>Registro de salida</title>
-    <link rel="stylesheet" href="estilo3.css">
+    <link rel="stylesheet" href="/estilo3.css">
 </head>
 <body>
 <div class="form-registrar">
     <h4>Registro de salida</h4>
-    <form action="Pagar.html">
-        <input type="text" name="cedula" placeholder="Cédula" required />
-        <button type="submit">Registrar</button>
+    <form th:action="@{/pagar}" th:object="${EntradaVehiculo}" method="POST">
+        <div class="form-group">
+            <label>CEDULA</label>
+            <input th:field="*{cliente}" type="text" class="form-control"/>
+        </div>
+        <div class="card-footer">
+            <input type="submit" value="Pgar" class="btn btn-success">
+            <a th:href="@{/inicio}" class="btn btn-warning">Atras</a>
+        </div>
     </form>
 </div>
-<button class="menu-btn"><a href="index.html">Menú</a></button>
+<button class="menu-btn"><a href="/inicio">Menú</a></button>
 </body>
 </html>

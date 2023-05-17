@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Lista de Clientes</title>
-    <link rel="stylesheet" href="estilo7.css">
+    <link rel="stylesheet" href="/estilo7.css">
 </head>
 <body>
 <div class="tabla-container">
@@ -25,8 +25,10 @@
             <td th:text="${cliente.apellido}"></td>
             <td th:text="${cliente.telefono}"></td>
             <td>
-                <button class="btn-edit" th:data-id="${cliente.cedula}">Editar</button>
-                <button class="btn-delete" th:data-id="${cliente.cedula}">Eliminar</button>
+            <td>
+                <a th:href="@{/editar/}+${cliente.cedula}" class="btn btn-warning">Editar</a>
+                <a th:href="@{/eliminar/}+${cliente.cedula}"  class="btn btn-danger">Eliminar</a>
+            </td>
             </td>
         </tr>
         </tbody>

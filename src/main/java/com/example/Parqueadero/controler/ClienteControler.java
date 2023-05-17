@@ -32,11 +32,13 @@ public class ClienteControler {
         return "listacliente";
     }
 
-    @GetMapping("/registrocliente")
+    @GetMapping("/registro/cliente")
     public String agregar1(Model modelo){
         modelo.addAttribute("cliente",new Cliente());
         return "registrocliente";
     }
+
+
     @GetMapping("/inicio")
     public String agregar2(Model modelo){
         return "inicio";
@@ -48,17 +50,17 @@ public class ClienteControler {
         return "redirect:/listar3";
     }
 
-    @GetMapping("/editar3/{cedula}")
+    @GetMapping("/editar/{cedula}")
     public String editar3(@PathVariable int cedula, Model modelo){
         Optional<Cliente> cliente = servi.listarcedula(cedula);
         modelo.addAttribute("cliente",cliente );
-        return "form";
+        return "registrocliente";
     }
 
-    @GetMapping("/eliminar3/{id}")
-    public String delete3(@PathVariable int id){
-        servi.delete3(id);
-        return "redirect:/listar";
+    @GetMapping("/eliminar/{id}")
+    public String delete3(@PathVariable int cedula){
+        servi.delete3(cedula);
+        return "listacliente";
     }
 
 

@@ -10,14 +10,10 @@ import java.util.List;
 public class EntradaVehiculo {
 
     @Id
-    @Column(name = "placa")
     private String placa;
-
-    @Column(name = "fecha_entrada")
     private LocalDateTime fechaEntrada;
-
+    private String tipo;
     @ManyToOne
-    @JoinColumn(name = "cliente_cedula")
     private Cliente cliente;
 
     @OneToMany(mappedBy = "entradaVehiculo")
@@ -25,10 +21,23 @@ public class EntradaVehiculo {
 
     public EntradaVehiculo() {}
 
-    public EntradaVehiculo(String placa, LocalDateTime fechaEntrada, Cliente cliente) {
+    public EntradaVehiculo(String placa, LocalDateTime fechaEntrada, Cliente cliente,String tipo) {
         this.placa = placa;
         this.fechaEntrada = fechaEntrada;
         this.cliente = cliente;
+        this.tipo=tipo;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setEspaciosParqueadero(List<EspacioParqueadero> espaciosParqueadero) {
+        this.espaciosParqueadero = espaciosParqueadero;
     }
 
     public String getPlaca() {

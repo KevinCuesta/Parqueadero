@@ -67,7 +67,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Laura Valentina/OneDrive/Escritorio/Programacion/Parqueadero/Parqueadero/src/main/java/com/example/Parqueadero/modelo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MY3QU1P0/Downloads/Parqueadero-master1/Parqueadero-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -77,7 +77,8 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;c79a54adde12c7c2c1e523ed08200507&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;c79a54adde12c7c2c1e523ed08200507&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -86,6 +87,7 @@
       <recent name="C:\Users\Laura Valentina\Downloads\TrabajoHtml (1)\CrudSpringBoot\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jsnq1\OneDrive\Imágenes\proyecto\Parqueadero-master\src\main\resources\templates" />
       <recent name="C:\Users\Laura Valentina\OneDrive\Escritorio\Programacion\Parqueadero\Parqueadero\src\main\resources\static" />
       <recent name="C:\Users\Laura Valentina\Downloads\TrabajoHtml (1)\CrudSpringBoot\src\main\resources\static" />
       <recent name="C:\Users\MY3QU1P0\Downloads\CrudSpringBoot\CrudSpringBoot\src\main\resources\Fonts" />
@@ -148,6 +150,7 @@
       <workItem from="1681332854105" duration="1966000" />
       <workItem from="1681734040021" duration="2000" />
       <workItem from="1681989055994" duration="4076000" />
+      <workItem from="1684300499954" duration="5696000" />
     </task>
     <servers />
   </component>

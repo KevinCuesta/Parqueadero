@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Lista de Registros</title>
-  <link rel="stylesheet" href="estilo6.css">
+  <link rel="stylesheet" href="/estilo6.css">
 </head>
 <body>
 <div class="table-title">
   <h3>Registro de entrada</h3>
 </div>
-<table
+<table class="table table-ligth table-striped-columns">
   <thead>
   <tr>
     <th class="text-left">Cedula</th>
@@ -21,19 +21,19 @@
   </tr>
   </thead>
   <tbody>
-  <tr th:each="registro : ${registros}">
-    <td th:text="${registro.getCedula()}"></td>
-    <td th:text="${registro.getPlaca()}"></td>
-    <td th:text="${registro.getFechaHoraEntrada()}"></td>
-    <td th:text="${registro.getTipo()}"></td>
-    <td th:text="${registro.getEspacioParqueadero()}"></td>
+  <tr th:each="registro : ${vehiculos}">
+    <td th:text="${registro.cliente}"></td>
+    <td th:text="${registro.placa}"></td>
+    <td th:text="${registro.fechaEntrada}"></td>
+    <td th:text="${registro.tipo}"></td>
+    <td th:text="${registro.espaciosParqueadero}"></td>
     <td>
-      <button class="btn-edit" th:data-id="${registro.getId()}">Editar</button>
-      <button class="btn-delete" th:data-id="${registro.getId()}">Eliminar</button>
+      <a th:href="@{/editar2/}+${registro.cliente}" class="btn btn-warning">Editar</a>
+      <a th:href="@{/eliminar2/}+${registro.cliente}"  class="btn btn-danger">Eliminar</a>
     </td>
   </tr>
   </tbody>
 </table>
-<a href="index.html" class="btn">Volver a la página principal</a>
+<a href="/inicio" class="btn">Volver a la página principal</a>
 </body>
 </html>
