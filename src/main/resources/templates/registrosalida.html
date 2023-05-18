@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" xmlns:th="https://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8" />
     <title>Registro de salida</title>
@@ -8,13 +8,13 @@
 <body>
 <div class="form-registrar">
     <h4>Registro de salida</h4>
-    <form th:action="@{/pagar}" th:object="${EntradaVehiculo}" method="POST">
+    <form >
         <div class="form-group">
             <label>CEDULA</label>
-            <input th:field="*{cliente}" type="text" class="form-control"/>
+            <input  type="text" class="form-control"/>
         </div>
         <div class="card-footer">
-            <input type="submit" value="Pgar" class="btn btn-success">
+            <a th:href="@{/pagar}" class="btn btn-warning">Pagar</a>
             <a th:href="@{/inicio}" class="btn btn-warning">Atras</a>
         </div>
     </form>

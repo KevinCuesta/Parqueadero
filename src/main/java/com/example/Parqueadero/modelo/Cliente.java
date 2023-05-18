@@ -8,6 +8,8 @@ import java.util.List;
 public class Cliente {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private long cedula;
 
     private String nombre;
@@ -17,8 +19,6 @@ public class Cliente {
 
     private long telefono;
 
-    @OneToMany(mappedBy = "cliente")
-    private List<EntradaVehiculo> entradasVehiculos;
 
     public Cliente() {}
 

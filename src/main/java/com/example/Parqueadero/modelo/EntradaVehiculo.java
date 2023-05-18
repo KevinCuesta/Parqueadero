@@ -10,22 +10,31 @@ import java.util.List;
 public class EntradaVehiculo {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
     private String placa;
-    private LocalDateTime fechaEntrada;
+    private String fechaEntrada;
     private String tipo;
-    @ManyToOne
-    private Cliente cliente;
-
-    @OneToMany(mappedBy = "entradaVehiculo")
-    private List<EspacioParqueadero> espaciosParqueadero = new ArrayList<>();
+    private long cliente;
+    private int espaciosParqueadero;
 
     public EntradaVehiculo() {}
 
-    public EntradaVehiculo(String placa, LocalDateTime fechaEntrada, Cliente cliente,String tipo) {
+    public EntradaVehiculo(int id, String placa, String fechaEntrada, long cliente,String tipo,int espaciosParqueadero) {
+        this.id=id;
         this.placa = placa;
         this.fechaEntrada = fechaEntrada;
         this.cliente = cliente;
         this.tipo=tipo;
+        this.espaciosParqueadero=espaciosParqueadero;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getTipo() {
@@ -36,9 +45,6 @@ public class EntradaVehiculo {
         this.tipo = tipo;
     }
 
-    public void setEspaciosParqueadero(List<EspacioParqueadero> espaciosParqueadero) {
-        this.espaciosParqueadero = espaciosParqueadero;
-    }
 
     public String getPlaca() {
         return placa;
@@ -48,33 +54,27 @@ public class EntradaVehiculo {
         this.placa = placa;
     }
 
-    public LocalDateTime getFechaEntrada() {
+    public String getFechaEntrada() {
         return fechaEntrada;
     }
 
-    public void setFechaEntrada(LocalDateTime fechaEntrada) {
+    public void setFechaEntrada(String fechaEntrada) {
         this.fechaEntrada = fechaEntrada;
     }
 
-    public Cliente getCliente() {
+    public long getCliente() {
         return cliente;
     }
 
-    public void setCliente(Cliente cliente) {
+    public void setCliente(long cliente) {
         this.cliente = cliente;
     }
 
-    public List<EspacioParqueadero> getEspaciosParqueadero() {
+    public int getEspaciosParqueadero() {
         return espaciosParqueadero;
     }
 
-    public void addEspacioParqueadero(EspacioParqueadero espacio) {
-        this.espaciosParqueadero.add(espacio);
-        espacio.setEntradaVehiculo(this);
-    }
-
-    public void removeEspacioParqueadero(EspacioParqueadero espacio) {
-        this.espaciosParqueadero.remove(espacio);
-        espacio.setEntradaVehiculo(null);
+    public void setEspaciosParqueadero(int espaciosParqueadero) {
+        this.espaciosParqueadero = espaciosParqueadero;
     }
 }

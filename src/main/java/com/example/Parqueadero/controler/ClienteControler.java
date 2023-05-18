@@ -20,7 +20,6 @@ import java.util.Optional;
 @RequestMapping
 public class ClienteControler {
 
-
     @Autowired
     private IclienteService servi;
 
@@ -37,17 +36,22 @@ public class ClienteControler {
         modelo.addAttribute("cliente",new Cliente());
         return "registrocliente";
     }
+    @GetMapping("/pagar")
+    public String agregar2(Model modelo){
+        modelo.addAttribute("cliente",new Cliente());
+        return "Pagar";
+    }
 
 
     @GetMapping("/inicio")
-    public String agregar2(Model modelo){
+    public String agregar3(Model modelo){
         return "inicio";
     }
 
     @PostMapping("/save3")
     public String save3(@Validated Cliente p){
         servi.save3(p);
-        return "redirect:/listar3";
+        return "redirect:/inicio";
     }
 
     @GetMapping("/editar/{cedula}")
@@ -62,6 +66,7 @@ public class ClienteControler {
         servi.delete3(cedula);
         return "listacliente";
     }
+
 
 
 

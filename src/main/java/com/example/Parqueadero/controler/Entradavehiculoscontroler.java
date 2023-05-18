@@ -2,7 +2,8 @@ package com.example.Parqueadero.controler;
 
 
 import com.example.Parqueadero.interfaceService.IentradavehiculoService;
-import com.example.Parqueadero.modelo.Cliente;
+
+
 import com.example.Parqueadero.modelo.EntradaVehiculo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -25,7 +26,7 @@ public class Entradavehiculoscontroler {
     private IentradavehiculoService service;
 
 
-    @GetMapping("/listar")
+    @GetMapping("/listar2")
     public String listar2(Model model){
         List<EntradaVehiculo>vehiculos= service.listar2();
         model.addAttribute("vehiculos", vehiculos);
@@ -33,24 +34,18 @@ public class Entradavehiculoscontroler {
     }
 
     @GetMapping("/registo/Entrada")
-    public String agregar(Model model){
+    public String agregar4(Model model){
         model.addAttribute("EntradaVehiculo", new EntradaVehiculo());
-        model.addAttribute("cliente",new Cliente());
         return "registroentrada";
     }
     @GetMapping("/registro/salida")
-    public String agregar2(Model model){
+    public String agregar5(Model model){
         model.addAttribute("EntradaVehiculo",new EntradaVehiculo());
-        model.addAttribute("cliente",new Cliente());
         return "registrosalida";
     }
-    @GetMapping("/pagar")
-    public String agregar3(Model model){
-        model.addAttribute("EntradaVehiculo", new EntradaVehiculo());
-        return "Pagar";
-    }
+
     @GetMapping("/espacio/parqueo")
-    public String agregar4(Model model){
+    public String agregar6(Model model){
         model.addAttribute("EntradaVehiculo", new EntradaVehiculo());
         return "espacioparqueadero";
     }
@@ -58,11 +53,11 @@ public class Entradavehiculoscontroler {
     @PostMapping("/save2")
     public String save2(@Validated EntradaVehiculo c){
         service.save2(c);
-        return "redirect:/listar";
+        return "inicio";
     }
 
     @GetMapping("/editar2/{id}")
-    public String editar(@PathVariable int cedula, Model model){
+    public String editar2(@PathVariable int cedula, Model model){
         Optional<EntradaVehiculo> vehiculos = service.listarId2(cedula);
         model.addAttribute("vehiculos", vehiculos);
         return "registroentrada";
@@ -73,4 +68,6 @@ public class Entradavehiculoscontroler {
         service.delete2(cedula);
         return "redirect:/listar";
     }
+
+    
 }
