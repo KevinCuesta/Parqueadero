@@ -28,8 +28,8 @@
     <td th:text="${registro.tipo}"></td>
     <td th:text="${registro.espaciosParqueadero}"></td>
     <td>
-      <a th:href="@{/editar2/}+${registro.cliente}" class="btn btn-warning">Editar</a>
-      <a th:href="@{/eliminar2/}+${registro.cliente}"  class="btn btn-danger">Eliminar</a>
+      <a th:href="@{/editar2/}+${registro.id}" class="btn btn-warning">Editar</a>
+      <a th:href="@{/eliminar2/}+${registro.id}"  class="btn btn-danger">Eliminar</a>
     </td>
   </tr>
   </tbody>

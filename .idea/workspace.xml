@@ -8,14 +8,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/controler/ClienteControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/controler/ClienteControler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/controler/Entradavehiculoscontroler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/controler/Entradavehiculoscontroler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaceService/IespacioparqueoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaces/IEspacioParqueadero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/modelo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/modelo/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/modelo/EntradaVehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/modelo/EntradaVehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/modelo/EspacioParqueadero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/service/EspacioParqueaderoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaceService/IentradavehiculoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Parqueadero/interfaceService/IentradavehiculoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/listacliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/listacliente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/listaregistro.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/listaregistro.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registroentrada.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registroentrada.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registrosalida.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registrosalida.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

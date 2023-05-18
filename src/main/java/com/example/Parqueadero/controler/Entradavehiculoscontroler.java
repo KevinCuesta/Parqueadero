@@ -57,16 +57,16 @@ public class Entradavehiculoscontroler {
     }
 
     @GetMapping("/editar2/{id}")
-    public String editar2(@PathVariable int cedula, Model model){
-        Optional<EntradaVehiculo> vehiculos = service.listarId2(cedula);
-        model.addAttribute("vehiculos", vehiculos);
-        return "registroentrada";
+    public String editar2(@PathVariable int id, Model model){
+        Optional<EntradaVehiculo> vehiculos = service.listarId2(id);
+        model.addAttribute("vehiculos", id);
+        return "redirect:/registo/Entrada";
     }
 
-    @GetMapping("/eliminar2/{cedula}")
-    public String delete2(@PathVariable int cedula){
-        service.delete2(cedula);
-        return "redirect:/listar";
+    @GetMapping("/eliminar2/{id}")
+    public String delete2(@PathVariable int id){
+        service.delete2(id);
+        return "redirect:/listar2";
     }
 
     

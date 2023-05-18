@@ -55,16 +55,16 @@ public class ClienteControler {
     }
 
     @GetMapping("/editar/{cedula}")
-    public String editar3(@PathVariable int cedula, Model modelo){
+    public String editar3(@PathVariable int cedula, Model model){
         Optional<Cliente> cliente = servi.listarcedula(cedula);
-        modelo.addAttribute("cliente",cliente );
-        return "registrocliente";
+        model.addAttribute("cliente",cliente );
+        return "redirect:/registro/cliente";
     }
 
-    @GetMapping("/eliminar/{id}")
+    @GetMapping("/eliminar/{cedula}")
     public String delete3(@PathVariable int cedula){
         servi.delete3(cedula);
-        return "listacliente";
+        return "redirect:/listar3";
     }
 
 

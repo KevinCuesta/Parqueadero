@@ -12,6 +12,6 @@ public interface IentradavehiculoService {
     public List<EntradaVehiculo>listar2();
     public Optional<EntradaVehiculo>listarId2(int id);
     public int save2 (EntradaVehiculo c);
-    public void delete2(int idr);
+    public void delete2(int id);
 
 }
